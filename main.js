@@ -16,9 +16,9 @@ let rl = Readline.createInterface(process.stdin, process.stdout)
 let WAConnection = simple.WAConnection(_WAConnection)
 
 
-global.owner = ['6281515860089','6281357302007','6288235435804'] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.owner = ['62859140514162'] // Put your number here
+global.mods = ['62859140514162'] // Want some help?
+global.prems = ['62859140514162'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -96,7 +96,7 @@ conn.handler = async function (m) {
         }
       } else global.DATABASE._data.users[m.sender] = {
         exp: 0,
-        limit: 20,
+        limit: 500,
         lastclaim: 0,
         registered: false,
         name: conn.getName(m.sender),
