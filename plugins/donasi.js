@@ -1,7 +1,7 @@
 let handler = async m => m.reply(`
 ╭─「 Donasi • Pulsa 」
 │ • Axis [0859140514162]
-│ • Dqna [0859140514162]
+│ • Dana [082134037319]
 │ • Gopay [0859140514162]
 ╰────
 ╭─「 Hubungi 」
